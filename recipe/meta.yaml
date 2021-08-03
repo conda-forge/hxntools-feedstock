@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -25,7 +25,7 @@ requirements:
     - cycler
     - databroker
     - h5py
-    - matplotlib
+    - matplotlib-base
     - nslsii
     - numpy
     - ophyd
