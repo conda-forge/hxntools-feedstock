@@ -1,5 +1,5 @@
 {% set name = "hxntools" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ff248d65eec4c015d8d0e622ad465523d900ff485cb297ea8e25c23b0a9edb89
+  sha256: e8180c45143bab859821029ac9e47e78bb8ecde0456663dd774504e648e451fc
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -34,9 +34,9 @@ requirements:
     - scipy
 
 test:
-  requires:      # [not win]
+  requires:   # [not win]
     - pip        # [not win]
-  commands:      # [not win]
+  commands:   # [not win]
     - pip check  # [not win]
   imports:
     - hxntools
