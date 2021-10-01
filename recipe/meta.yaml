@@ -34,10 +34,6 @@ requirements:
     - scipy
 
 test:
-  requires:   # [not win]
-    - pip        # [not win]
-  commands:   # [not win]
-    - pip check  # [not win]
   imports:
     - hxntools
 
