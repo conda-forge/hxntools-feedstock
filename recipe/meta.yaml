@@ -1,5 +1,5 @@
 {% set name = "hxntools" %}
-{% set version = "0.6.4" %}
+{% set version = "0.6.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e8e2f3b41a1e1943ef76296b5d0420e0bc8f3e91771181546b7c583872ebe779
+  sha256: ca98fa157decb05759f2c5e5f290d43fc1c1e7b8a080d104c72ecf4375d7eafb
 
 build:
   noarch: python
