@@ -147,6 +147,3 @@ Feedstock Maintainers
 * [@dmgav](https://github.com/dmgav/)
 * [@mrakitin](https://github.com/mrakitin/)
 
-
-<!-- dummy commit to enable rerendering -->
-
